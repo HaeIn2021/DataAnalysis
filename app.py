@@ -11,7 +11,7 @@ st.write('# 🚩숫자 인식기')
 CANVAS_SIZE = 192
 
 # col1, col2,col3 = st.beta_columns(3)
-col1, col2 = st.columns(3)
+col1, col2 = st.columns(2)
 col1.write('마우스로 숫자입력')
 col2.write('예측한 숫자')
 with col1:
